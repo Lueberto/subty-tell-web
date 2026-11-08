@@ -43,7 +43,7 @@ address{font-style:normal}
 <h2>2. Das Wichtigste in Kürze</h2>
 <ul>
 <li>Die App braucht kein Konto und keine Anmeldung. Sie enthält keine Werbung und keine Analyse- oder Tracking-Dienste.</li>
-<li>Kamerabild und Ton werden auf deinem Handy verarbeitet und nicht gespeichert. Sie werden nicht an uns übertragen.</li>
+<li>Kamerabilder werden auf deinem Handy verarbeitet und nicht gespeichert. Für die Sprachbefehle wird der Raumton an die Online-Spracherkennung von Google übertragen (in der App abschaltbar). Nichts davon wird gespeichert oder an uns übertragen.</li>
 <li>Wir selbst erhalten keine Daten aus der App. Daten verlassen dein Handy nur in den unten genannten Fällen, und zwar direkt an den jeweiligen Dienst.</li>
 </ul>
 
@@ -53,7 +53,9 @@ address{font-style:normal}
 <h3>Zusammenfassungen und Bildbeschreibungen</h3>
 <p>Zusammenfassungen und Beschreibungen des Fernsehbilds erzeugt das KI-Modell Gemini Nano über den Android-Dienst AICore direkt auf dem Gerät. Der Dialogtext und die Bilder verlassen dafür dein Handy nicht. Google kann bei der Nutzung von ML Kit und AICore technische Nutzungs- und Diagnosedaten (z. B. Leistungs- und Fehlerinformationen) erheben. Es gilt die <a href="https://policies.google.com/privacy" rel="noopener">Datenschutzerklärung von Google</a>.</p>
 <h3>Mikrofon und Sprachbefehle</h3>
-<p>Wenn du die Sprachsteuerung nutzt, verarbeitet die Spracherkennung deines Android-Systems den Ton. Sie läuft in der Regel auf dem Gerät. Ist die Erkennung auf dem Gerät nicht verfügbar oder fehlerhaft, oder wird eine zusätzliche Sprache erkannt, kann die App die Online-Spracherkennung von Google nutzen. Dann wird der Raumton (auch der Ton des Fernsehers) zur Erkennung an Google übertragen. Wir erhalten davon nichts.</p>
+<p>Die App nutzt das Mikrofon nur, wenn du es in Android erlaubt hast, und nur während einer Vorlese-Sitzung. Dafür gibt es zwei Zwecke:</p>
+<p><strong>Tonfall:</strong> Die App misst auf dem Gerät Lautstärke und Tonhöhe der Stimmen, um passender vorzulesen. Dabei wird nichts aufgenommen, gespeichert oder übertragen.</p>
+<p><strong>Sprachbefehle</strong> (z. B. „Stop“ und „Tell“): Damit die App deine Befehle zuverlässig versteht, nutzt sie standardmäßig die Online-Spracherkennung von Google. Solange eine Vorlese-Sitzung läuft, wird dafür der Raumton laufend an Google übertragen. Er enthält auch den Ton des Fernsehers und gegebenenfalls die Stimmen anderer Personen im Raum. Google wandelt den Ton in Text um; die App wertet nur aus, ob ein Befehl gesagt wurde. Die App selbst nimmt nichts auf und speichert nichts, und wir erhalten davon nichts. Für die Verarbeitung bei Google gelten die <a href="https://policies.google.com/privacy" rel="noopener">Datenschutzerklärung von Google</a> und gegebenenfalls die Einstellungen deines Google-Kontos. Du kannst das in der App unter Einstellungen → „Online-Spracherkennung erlauben“ ausschalten. Dann nutzt die App die Spracherkennung auf dem Gerät, sofern dein Handy sie anbietet; die Sprachbefehle können dann weniger zuverlässig funktionieren. Bitte weise Personen, die mit dir im Raum sind, auf die Sprachsteuerung hin.</p>
 <h3>Sprachausgabe</h3>
 <p>Das Vorlesen übernimmt der Sprachdienst deines Handys (z. B. Google Sprachausgabe). Je nach dessen Einstellungen kann der Dienst Online-Stimmen nutzen; dann gilt die Datenschutzerklärung des jeweiligen Anbieters.</p>
 <h3>Übersetzung</h3>
@@ -73,7 +75,7 @@ address{font-style:normal}
 <p>Die Webseite subty-tell.app wird bei GitHub Pages (GitHub Inc., USA) gehostet. Beim Aufruf verarbeitet GitHub technisch notwendige Daten wie deine IP-Adresse, z. B. zur Sicherheit und zur Abwehr von Angriffen. Die Webseite setzt keine Cookies, nutzt kein Tracking und lädt keine Inhalte von fremden Servern; auch die Schrift liegt auf diesem Server. Es gilt zusätzlich die <a href="https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener">Datenschutzerklärung von GitHub</a>.</p>
 
 <h2>5. Rechtsgrundlagen</h2>
-<p>Die Verarbeitung in der App erfolgt, um dir die Funktionen bereitzustellen, die du nutzt (Art. 6 Abs. 1 lit. b DSGVO). Kamera und Mikrofon nutzt die App nur, wenn du dies in Android erlaubt hast. Das Hosting der Webseite beruht auf unserem berechtigten Interesse an einem sicheren Betrieb (Art. 6 Abs. 1 lit. f DSGVO).</p>
+<p>Die Verarbeitung in der App erfolgt, um dir die Funktionen bereitzustellen, die du nutzt (Art. 6 Abs. 1 lit. b DSGVO). Kamera und Mikrofon nutzt die App nur, wenn du dies in Android erlaubt hast. Soweit bei den Sprachbefehlen Stimmen anderer Personen im Raum mit übertragen werden, beruht dies auf dem berechtigten Interesse an einer funktionierenden Sprachsteuerung; der Ton wird nur flüchtig zur Erkennung verarbeitet (Art. 6 Abs. 1 lit. f DSGVO). Das Hosting der Webseite beruht auf unserem berechtigten Interesse an einem sicheren Betrieb (Art. 6 Abs. 1 lit. f DSGVO).</p>
 
 <h2>6. Übermittlung in Drittländer</h2>
 <p>Google, GitHub und die Wikimedia Foundation verarbeiten Daten auch in den USA. Soweit die Anbieter unter dem EU-US Data Privacy Framework zertifiziert sind, erfolgt die Übermittlung auf dieser Grundlage, sonst auf Grundlage von Standardvertragsklauseln der EU-Kommission oder der Erforderlichkeit für die von dir genutzte Funktion.</p>
@@ -88,8 +90,8 @@ address{font-style:normal}
 <p><strong>Controller:</strong> Chris L. Volksbeck, Faberstrasse 12, 20257 Hamburg, Germany · E-mail: <span class="em"></span></p>
 <ul>
 <li>Subty-Tell needs no account and contains no ads, analytics or tracking. We receive no data from the app.</li>
-<li>Camera images and sound are processed on your phone only, not stored and not sent to us. Text recognition (Google ML Kit) and summaries (Gemini Nano via Android AICore) run on the device; Google may collect technical usage and diagnostic data for these services.</li>
-<li>If on-device speech recognition is unavailable or fails, Google’s online speech recognition may be used; room audio is then sent to Google.</li>
+<li>Camera images are processed on your phone only, not stored and not sent to us. The tone analysis (loudness and pitch of the voices) also runs on the phone only. Text recognition (Google ML Kit) and summaries (Gemini Nano via Android AICore) run on the device; Google may collect technical usage and diagnostic data for these services.</li>
+<li>For voice commands (e.g. “Stop”, “Tell”) the app uses Google’s online speech recognition by default: while a reading session is running, room audio (including the TV and possibly other people in the room) is sent to Google. The app records and stores nothing. You can switch this off under Settings → “Allow online speech recognition”; the app then uses on-device recognition if available.</li>
 <li>Translation runs on the device; language packs are downloaded once from Google. Information about the selected film or game is fetched from Wikipedia/Wikidata (title and IP address).</li>
 <li>Settings, transcripts and the story memory stay on your phone; delete them by clearing the app data or uninstalling. The session log leaves your phone only if you share it yourself.</li>
 <li>Payments, if offered, are handled by Google Play. The app is intended for users aged 18 and over.</li>
