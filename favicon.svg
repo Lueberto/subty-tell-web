@@ -1,7 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-<defs><linearGradient id="g" gradientUnits="userSpaceOnUse" x1="10" y1="14" x2="54" y2="50"><stop offset="0" stop-color="#FF3D8B"/><stop offset=".55" stop-color="#FF8A3D"/><stop offset="1" stop-color="#FFD166"/></linearGradient></defs>
-<rect width="64" height="64" rx="14" fill="#0A0716"/>
-<path d="M10 26h9l13-11v34L19 38h-9z" fill="url(#g)"/>
-<path d="M39 25c2.8 2 4.2 4.4 4.2 7s-1.4 5-4.2 7" fill="none" stroke="url(#g)" stroke-width="4.5" stroke-linecap="round"/>
-<path d="M46 18c4.8 3.8 7.2 8.4 7.2 14s-2.4 10.2-7.2 14" fill="none" stroke="url(#g)" stroke-width="4.5" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="23 23 62 62">
+<defs><linearGradient id="g" gradientUnits="userSpaceOnUse" x1="27" y1="54" x2="81" y2="54"><stop offset="0" stop-color="#FF3D8B"/><stop offset=".45" stop-color="#FF8A3D"/><stop offset="1" stop-color="#3D8BFF"/></linearGradient></defs>
+<rect x="23" y="23" width="62" height="62" rx="13" fill="#140A24"/>
+<path d="M32,34.5 L76,34.5 A5,5 0 0,1 81,39.5 L81,62.5 A5,5 0 0,1 76,67.5 L32,67.5 A5,5 0 0,1 27,62.5 L27,39.5 A5,5 0 0,1 32,34.5 Z" fill="none" stroke="url(#g)" stroke-width="3" stroke-linejoin="round"/>
+<path d="M51.25,67.5 L49.6,74.1 M56.75,67.5 L58.4,74.1 M44.1,74.1 L63.9,74.1" fill="none" stroke="url(#g)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path fill="#FFFFFF" d="M43.2,47.62 L47.92,47.62 L54.0,42.9 L54.0,59.1 L47.92,54.38 L43.2,54.38 Z"/>
+<path d="M58.29,46.71 A6.08,6.08 0 0,1 58.29,55.29 M61.64,43.36 A10.8,10.8 0 0,1 61.64,58.64" fill="none" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round"/>
 </svg>
