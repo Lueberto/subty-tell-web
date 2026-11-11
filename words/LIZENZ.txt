@@ -1,0 +1,5 @@
+Wortlisten / Word lists: FrequencyWords by Hermit Dave (https://github.com/hermitdave/FrequencyWords),
+generated from OpenSubtitles 2018 (http://opus.nlpl.eu/OpenSubtitles2018.php).
+Licensed under CC BY-SA 4.0: https://creativecommons.org/licenses/by-sa/4.0/
+Changes: top 50,000 words, words only (no numbers, no counts), lower case, some misread words removed (e.g. "lch" for "ich").
+These lists are shared under the same license (CC BY-SA 4.0).
